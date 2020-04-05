@@ -1,0 +1,80 @@
+*{
+   font-family: 'Baloo Da 2', cursive;
+   font-size: 1em; 
+
+}
+
+body{
+    background-image: url('../img/background.webp');
+}
+
+.container{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.row{
+    background-color: #20002c46;
+}
+
+.row.dos{
+    background-color: white;
+}
+
+.logo{
+    color: white;
+}
+.fav{
+    width: 100px;
+    height: 120px;
+    margin: 10px 0;
+}
+
+.side-bar{
+    background-color: white;
+    border-radius: 25px;
+    padding: 2%;
+    width: 100%;
+}
+
+
+
+.menu li a{
+    color: white;
+    background-color: #20002c;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    background-color:#66267ea4;
+    color: white;
+}
+
+#entry{
+    background-color: white;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.card{
+    width: 100%;
+}
+
+.card-divider{
+    background-color: #20002c !important;
+    color: white;
+}
+
+.historial li{
+    background-color: #20002c;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.historial li a{
+    color: white
+}
